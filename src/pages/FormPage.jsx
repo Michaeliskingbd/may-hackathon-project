@@ -1,8 +1,6 @@
-import React from "react";
-
 const FormPage = () => {
   return (
-    <div>
+    <section className="sect">
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt dolor
       doloremque, repellendus voluptatum maxime nisi iste. Nostrum recusandae
       libero culpa deserunt? Totam ex, commodi, ullam velit itaque quibusdam,
@@ -14,7 +12,7 @@ const FormPage = () => {
       quia repudiandae dolore placeat repellat labore, perspiciatis cumque odit
       dolorum quaerat dolorem? Non in suscipit natus est, nam quos blanditiis
       nemo illo!
-    </div>
+    </section>
   );
 };
 
