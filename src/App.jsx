@@ -1,6 +1,6 @@
 import './App.css'
 import Activities from './pages/Activities'
-import ActivitiesDetailes from './pages/ActivitiesDetailes'
+import ActivitiesDetails from './pages/ActivitiesDetails'
 import Home from './pages/Home'
 
 

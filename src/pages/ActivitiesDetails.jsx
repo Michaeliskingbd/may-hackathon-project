@@ -3,7 +3,7 @@ import { BsStarFill } from "react-icons/bs";
 import { BsShare } from "react-icons/bs";
 import { oshe } from"../assets/location.svg";
 
-const ActivitiesDetailes = () => {
+const ActivitiesDetails = () => {
   return (
     <section className='pt-20 pb-20'>
         
@@ -42,4 +42,4 @@ const ActivitiesDetailes = () => {
   )
 }
 
-export default ActivitiesDetailes
+export default ActivitiesDetails
