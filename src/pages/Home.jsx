@@ -1,8 +1,24 @@
+
+import Rightside from "./Rightside"
+import Tour from "./Tour"
+import Tourdata from "./Tourdata"
+
+
+
 const Home = () => {
   return (
     <section>
-      <h1 className='text-6xl text-center'>This is our Hackathon project</h1>
-    </section>
+   <Tourdata />
+   <Rightside />
+
+import HeroBanner from "../components/HeroBanner"
+
+const Home = () => {
+  return (
+    <div>
+
+    </div>
+
   )
 }
 

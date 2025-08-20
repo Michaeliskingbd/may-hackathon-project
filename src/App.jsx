@@ -1,18 +1,23 @@
+
 import './App.css'
 import Activities from './pages/Activities'
-import ActivitiesDetails from './pages/ActivitiesDetails'
+import Contact from './pages/Contact'
+import Faq from './pages/Faq'
 import Home from './pages/Home'
 
 
 function App() {
-
   return (
-    <section>
-    
-      <Home /> 
-      
-    </section>
-  )
-}
 
-export default App
+    <section>
+
+      <Activities />
+
+
+    </section>
+    
+  )    
+
+};
+
+export default App;
