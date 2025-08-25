@@ -1,20 +1,26 @@
 
-
-
-
-
-import './App.css'
-import Activities from './pages/Activities'
-import Home from './pages/Home'
+import Team from "./pages/Team";
+import Teamdetails from "./pages/Teamde
 
 
 function App() {
   return (
+    
+  
 
-    <Activities />
-  )
+    <div>
+      <Team/>
+      <Teamdetails/>
+    
+    </div>
 
-   
+
+
+
+
+  
+    
+)
 }
 
 export default App;
