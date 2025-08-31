@@ -2,15 +2,16 @@ import React from "react";
 import DestinationInfo from "../components/DescriptionInfo";
 import ReviewCard from "../components/ReviewCard";
 import ReplyForm from "../components/ReplyForm";
+import MapCard from "../components/CountryCard";
 
 const DestinationDetails = () => {
   return (
     <section>
-      <div className="relative h-[400px] flex items-center justify-center bg-[url(./assets/image1.jpg)] bg-cover bg-center">
+      <div className="relative h-[500px] flex items-center justify-center bg-[url(./assets/image1.jpg)] bg-cover bg-center">
         <div className="absolute inset-0 top-0 right-0 bg-black bg-opacity-40"></div>
         <div className="z-10 text-center text-white">
           <h1 className="text-5xl font-bold mb-4">Destination Details</h1>
-          <div className="flex items-center justify-center space-x-2 text-lg">
+          <div className="flex items-center justify-center space-x-2 text-lg border rounded-full bg-white/20 backdrop-blur-sm h-10">
             <a href="#Home" className="cursor-pointer">
               Home
             </a>
@@ -39,6 +40,9 @@ const DestinationDetails = () => {
           Description3="The country is famous for its contributions to art, music, and literature, with figures like Leonardo da Vinci, Michelangelo, and Dante Alighieri hailing from Italy."
           Description4="Italy is also renowned for its culinary traditions, including pasta, pizza, and gelato. Each region has its own unique dishes and flavors, making Italian cuisine one of the most beloved in the world."
         />
+      </div>
+      <div>
+        <MapCard />
       </div>
       <div className="px-4 mt-8 max-w-7xl mx-auto p-4 sm:p-6 bg-white shadow-md rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         <ReviewCard

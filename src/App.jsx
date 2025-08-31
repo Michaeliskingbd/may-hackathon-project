@@ -8,9 +8,9 @@ function App() {
   return (
     <section>
       {/* <Home></Home> */}
-      {/* <Destination />
-      <Places /> */}
-      <DestinationDetails />
+      <Destination />
+      {/* <Places /> */}
+      {/* <DestinationDetails /> */}
     </section>
   );
 }

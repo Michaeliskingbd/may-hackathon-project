@@ -1,109 +1,108 @@
 import React, { useState } from "react";
-import Card from "./Card"; // Your Card component
+import Card from "./Card";
 
 const Places = () => {
-  // All your card data in one array
   const trips = [
     {
       image:
         "https://i.postimg.cc/wj13qLjh/life-s-captured-sparks-wdmubbjp1z-Q-unsplash.jpg",
       title: "United-States",
-      price: "500",
+      price: "50",
     },
     {
       image: "https://i.postimg.cc/dVCTYp62/italy.jpg",
       title: "Italy",
-      price: "700",
+      price: "70",
     },
     {
       image: "https://i.postimg.cc/fTJ8xWWM/France.jpg",
       title: "France",
-      price: "600",
+      price: "61.5",
     },
     {
       image: "https://i.postimg.cc/ZKBLWfjR/japan.jpg",
       title: "Japan",
-      price: "500",
+      price: "55.3",
     },
     {
       image: "https://i.postimg.cc/YSn34Jcv/united-kingdom.jpg",
       title: "United-Kingdom",
-      price: "700",
+      price: "70",
     },
     {
       image: "https://i.postimg.cc/zBHnyvSQ/Australia.jpg",
       title: "Australia",
-      price: "600",
+      price: "65",
     },
     {
       image: "https://i.postimg.cc/GpVDnrwx/Canada.jpg",
       title: "Canada",
-      price: "500",
+      price: "52",
     },
     {
       image: "https://i.postimg.cc/h4bXpVjr/Spain.jpg",
       title: "Spain",
-      price: "700",
+      price: "73.5",
     },
     {
       image: "https://i.postimg.cc/DZc7ddg4/Germany.jpg",
       title: "Germany",
-      price: "600",
+      price: "65.5",
     },
     {
       image: "https://i.postimg.cc/3RfcTkrb/Brazil.jpg",
       title: "Brazil",
-      price: "500",
+      price: "55",
     },
     {
       image: "https://i.postimg.cc/3J1n5yLj/Greece.jpg",
       title: "Greece",
-      price: "700",
+      price: "70",
     },
     {
       image: "https://i.postimg.cc/RFwLPq6H/Mexico.jpg",
       title: "Mexico",
-      price: "500",
+      price: "50",
     },
     {
       image: "https://i.postimg.cc/WzXWntC7/Thailand.jpg",
       title: "Thailand",
-      price: "500",
+      price: "50",
     },
     {
       image: "https://i.postimg.cc/j2gcfmng/India.jpg",
       title: "India",
-      price: "500",
+      price: "52",
     },
     {
       image: "https://i.postimg.cc/Jn7jQKL9/South-africa.jpg",
       title: "South Africa",
-      price: "500",
+      price: "56",
     },
     {
       image: "https://i.postimg.cc/13x6dyS0/Dubai.jpg",
       title: "United-Arab Emirates",
-      price: "800",
+      price: "80",
     },
     {
       image: "https://i.postimg.cc/G9n2XhDH/Singapore.jpg",
       title: "Singapore",
-      price: "500",
+      price: "54.5",
     },
     {
       image: "https://i.postimg.cc/fTYf78SR/netherlands.jpg",
       title: "Netherlands",
-      price: "700",
+      price: "70",
     },
     {
       image: "https://i.postimg.cc/c4WnW06d/Switzerland.jpg",
       title: "Switzerland",
-      price: "700",
+      price: "75",
     },
     {
       image: "https://i.postimg.cc/8zjPQ0d1/turkey.jpg",
       title: "Turkey",
-      price: "500",
+      price: "59",
     },
   ];
 

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import Card from "../components/Card";
+import Places from "../components/Places";
 
 const Destination = () => {
   const allowedCountries = [
@@ -67,11 +68,11 @@ const Destination = () => {
 
   return (
     <section>
-      <div className="relative h-[400px] flex items-center justify-center bg-[url(./assets/image1.jpg)] bg-cover bg-center">
+      <div className="relative h-[500px] flex items-center justify-center bg-[url(./assets/image1.jpg)] bg-cover bg-center">
         <div className="absolute inset-0 top-0 right-0 bg-black bg-opacity-40"></div>
         <div className="z-10 text-center text-white">
           <h1 className="text-5xl font-bold mb-4">Destination</h1>
-          <div className="flex items-center justify-center space-x-2 text-lg">
+          <div className="flex items-center justify-center space-x-2 text-lg border rounded-full bg-white/20 backdrop-blur-sm h-10">
             <a href="#Home" className="cursor-pointer">
               Home
             </a>
@@ -113,6 +114,9 @@ const Destination = () => {
         )}
 
         {error && <p className="text-red-500 mt-2">{error}</p>}
+      </div>
+      <div>
+        <Places />
       </div>
     </section>
   );
