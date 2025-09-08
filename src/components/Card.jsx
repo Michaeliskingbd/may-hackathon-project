@@ -31,7 +31,7 @@ const Card = ({ image, title, price }) => {
           <BsClock className="w-4 h-4 mr-1" /> 10 Days
         </div>
 
-        <button className="mt-4 w-full border border-gray-300 rounded-full py-2 text-[16px] font-medium text-teal-600 transition-all duration-300 ease-in-out hover:text-white hover:bg-primary group">
+        <button className="mt-4 w-full border border-gray-300 rounded-full py-2 text-[16px] font-medium text-teal-600 transition-all duration-300 ease-in-out hover:text-white hover:bg-sky-600">
           Book Now →
         </button>
       </div>

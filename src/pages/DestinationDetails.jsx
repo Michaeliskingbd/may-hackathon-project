@@ -2,7 +2,7 @@ import React from "react";
 import DestinationInfo from "../components/DescriptionInfo";
 import ReviewCard from "../components/ReviewCard";
 import ReplyForm from "../components/ReplyForm";
-import MapCard from "../components/CountryCard";
+import MapCard from "../components/MapCard";
 
 const DestinationDetails = () => {
   return (
